@@ -8,6 +8,14 @@
 import PostList from '@/components/Posts/PostList'
 
 export default {
+    head() {
+        return {
+            title: 'Posts Page',
+            meta: [
+                { hid: 'description', name: 'description', content: 'Posts description' }
+            ]
+        }
+    },
     components: {
         PostList
     },
