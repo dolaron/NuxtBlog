@@ -31,7 +31,7 @@ export default {
             editedPost: this.post ? { ...this.post } : {
                 author: '',
                 title: '',
-                thubmnail: '',
+                thumbnail: '',
                 content: '',
                 previewText: ''
             }
