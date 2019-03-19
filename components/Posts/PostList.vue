@@ -36,4 +36,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
+.no-class {}
 </style>
